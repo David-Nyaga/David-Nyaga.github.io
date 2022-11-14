@@ -1,0 +1,38 @@
+:root{
+    --Primary:#fea116;
+    --light:#f1f8ff;
+    --dark:#0f172b;
+}
+body{
+    background-color: #fff;
+}
+/*  Button */
+.btn{
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+.btn.btn-primary,
+.btn.btn-secondary{
+    color: #ffffff;
+}
+/* Header Section*/
+.carousel-caption{
+  align-items: center; 
+  margin-bottom: 240px;
+  margin-top: 140px;
+}
+.carousel-caption-prev,
+.carousel-caption-prev{
+    width: 100%;
+}
+.carousel-caption-prev-icon,
+.carousel-caption-prev-icon{
+    width: 3rem;
+    height: 3rem;
+}
+.booking{
+    position: relative;
+    margin-top: -100px !important;
+    z-index: 1;
+}
